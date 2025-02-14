@@ -1,0 +1,3 @@
+# Uncommon Julia Bug: Implicit Return and Conditional Logic
+
+This repository demonstrates a subtle bug in Julia related to missing return statements within conditional logic and implicit return of `nothing`.  The initial function `my_function` has a potential issue because it doesn't explicitly return a value in all cases.  This can cause unintended consequences depending on how the function is used.
